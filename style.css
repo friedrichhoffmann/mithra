@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;      /* align logo and text vertically */
+	justify-content: center;  /* center the group across the page */
+	gap: 1rem;
+}
+
+.title {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 650;
+	font-size: 60px;
+	font-style: italic;
+	margin: 0;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	flex: 0 0 140px;
+	background: #000;
+	-webkit-mask: url("https://raw.githubusercontent.com/friedrichhoffmann/mithra/main/mithra.svg") center / contain no-repeat;
+	mask: url("https://raw.githubusercontent.com/friedrichhoffmann/mithra/main/mithra.svg") center / contain no-repeat;
+}
+
